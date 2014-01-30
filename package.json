@@ -1,0 +1,23 @@
+{
+  "name": "lodash-express",
+  "version": "0.0.1",
+  "description": "Use Lodash templates in Express",
+  "main": "lodash-express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Scott Gamon"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash.template": "~2.4.1"
+  },
+  "readme": "# lodash-express\n\nUse Lodash templates easily in Express.\n\n## Install\n\nThis package is registered in npm as `lodash-express`, so a simple...\n\n```bash\nnpm install underscore-express\n```\n\n...will do it.\n\n## Usage\n\nIn your Express app setup...\n\n```js\n// replace 'html' below with your favorite template extension\nvar app = express();\nrequire('lodash-express')(app, 'html'); \napp.set('view engine', 'html');\n```\n\n...and that's it!\n\n## Including Subtemplates\n\n`lodash-express` comes with a baked in include method. Here's an example...\n\n**views/header.html**\n```html\n<html>\n\n  <head>\n    <title>Header!</title>\n  </head>\n\n  <body>\n```\n\n**views/footer.html**\n```html\n  </body>\n</html>\n```\n\n**views/index.html**\n```html\n<%= include('header') %>\n    Welcome to my homepage!\n<%= include('footer') %>\n```\n\n**app.js**\n```js\nres.render('index');\n```\n\n**RESULT**\n```html\n<html>\n\n  <head>\n    <title>Header!</title>\n  </head>\n\n  <body>\n    Welcome to my homepage!\n  </body>\n</html>\n```\n\n`include` is relative to the file it is called from. Feel free to use relative paths like `../../some/other/subtemplate`.\n",
+  "readmeFilename": "README.md",
+  "_id": "lodash-express@0.0.0",
+  "dist": {
+    "shasum": "1924954bafe4a8507dbc3a43235fd92845e78100"
+  },
+  "_from": "lodash-express"
+}
