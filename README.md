@@ -29,7 +29,7 @@ app.set('view engine', 'html');
 
 ## Including Subtemplates
 
-`lodash-express` comes with a baked in include method. Here's an example...
+`lodash-express` comes with a baked-in _include_ method. Here's an example...
 
 **views/header.html**
 ```html
