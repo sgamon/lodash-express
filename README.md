@@ -9,7 +9,7 @@ Use Lodash templates easily in Express.
 This package is registered in npm as `lodash-express`, so a simple...
 
 ```bash
-npm install underscore-express
+npm install lodash-express
 ```
 
 ...will do it.
