@@ -1,5 +1,7 @@
 # lodash-express
 
+[![npm package](https://nodei.co/npm/lodash-express.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/lodash-express/)
+
 Use Lodash templates easily in Express.
 
 (Note: This is a very minor variation of Casey Foster's underscore-express.)
