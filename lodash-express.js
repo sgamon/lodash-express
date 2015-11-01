@@ -6,7 +6,7 @@ var path = require('path');
 var cache = {};
 
 // Set the default template extension. Override as necessary.
-var ext = 'hmtl';
+var ext = 'html';
 
 // Set the special express property for templating to work.
 var render = function (abs, options, cb) {
