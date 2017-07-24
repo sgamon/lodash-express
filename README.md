@@ -34,7 +34,7 @@ By default, lodash-express uses the minimal template module (lodash.template). I
 
 ```js
 let _ = require('lodash');
-res.render('posts', {_:_, posts:posts});
+res.render('home', {_:_, message:'Welcome'});
 ```
 
 ## Including Subtemplates
