@@ -29,6 +29,14 @@ app.set('view engine', 'html');
 
 ...and that's it!
 
+### Using lodash in your templates
+By default, lodash-express uses the minimal template module (lodash.template). If you would like to use lodash within your templates, you can pass lodash into the template from the controller.
+
+```js
+let _ = require('lodash');
+res.render('posts', {_:_, posts:posts});
+```
+
 ## Including Subtemplates
 
 `lodash-express` comes with a baked-in _include_ method. Here's an example...
