@@ -1,6 +1,6 @@
 {
   "name": "lodash-express",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Use Lodash templates in Express",
   "main": "lodash-express.js",
   "repository": {
@@ -13,7 +13,7 @@
   "author": "Scott Gamon",
   "license": "MIT",
   "dependencies": {
-    "lodash.template": "~4.4.0"
+    "lodash.template": "~4.5.0"
   },
   "dist": {
     "shasum": "1924954bafe4a8507dbc3a43235fd92845e78100"
